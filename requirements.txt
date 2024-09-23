@@ -2,7 +2,7 @@
 git+https://github.com/hangoutsbot/hangups.git
 appdirs
 asyncio
-aiohttp>=3.8.0,<1.1
+aiohttp>=3.10.2
 jsonrpclib-pelix
 
 # PLUGIN DEPENDENCIES #
@@ -20,3 +20,5 @@ slackclient >=0.16 # slackrtm (includes websockets)
 textblob
 python_dateutil # gitlab sink
 telepot == 7.1 # telegram sync, newer versions doesn't support Python3.4.1
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
