@@ -20,3 +20,5 @@ slackclient >=0.16 # slackrtm (includes websockets)
 textblob
 python_dateutil # gitlab sink
 telepot == 7.1 # telegram sync, newer versions doesn't support Python3.4.1
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
